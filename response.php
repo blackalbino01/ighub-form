@@ -13,11 +13,11 @@
 	}
 	?>
 	<?php
-		if(empty($name)){
-			echo"<li>You forgot to enter a name!</li>";
+	    if(empty($name)){
+		echo"<li>You forgot to enter a name!</li>";
 			
-		}
-		if(empty($track)){
+	    }
+	    if(empty($track)){
 	      	echo"<li>You forgot to enter a track!</li>";
 	      	
 	    }
@@ -51,4 +51,5 @@
 		?>
 	</table>
 </body>
+</html>
 
